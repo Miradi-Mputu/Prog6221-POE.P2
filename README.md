@@ -13,10 +13,8 @@ Cyber Bot is a Windows desktop chatbot that educates users about cybersecurity t
 - Random responses that give different answers for the same topic
 - Sentiment detection that responds empathetically when users express worry or confusion
 - Follow-up questions that support "tell me more" and "another tip" commands
-- Eleven cybersecurity topics covering essential online safety information
 
 ## Cybersecurity Topics Covered
-
 - Passwords and password safety
 - Phishing scams and how to spot them
 - Safe browsing habits
@@ -30,17 +28,13 @@ Cyber Bot is a Windows desktop chatbot that educates users about cybersecurity t
 - Encryption and data protection
 
 ## How to Use
-
 Launch the application and the welcome sound will play automatically.
 Enter your name in the text box and click "Start Chatting" or press Enter.
 Type any topic from the menu to learn about it.
 Use follow-up commands like "tell me more" or "another tip" for additional information.
 Type "exit", "quit", or "bye" to close the application.
 
-
-
 ## Example Interaction
-
 Bot: Welcome, John! I am Cyber Bot, your personal online safety guide.
 
 Bot: === CYBER BOT MENU ===
@@ -71,8 +65,8 @@ You: exit
 
 Bot: Goodbye, John! Stay safe online.
 
-## Project Structure
 
+## Project Structure
 The AudioPlayer folder contains the greeting.wav sound file.
 The Image folder contains the Logo.png image file.
 AudioPlayer.cs handles all audio playback functionality.
@@ -82,11 +76,8 @@ MainWindow.xaml.cs handles UI events and display logic.
 App.xaml is the application definition file.
 AssemblyInfo.cs contains assembly metadata.
 
-
 ## YouTube 
-
 Click here to watch the demo video: https://youtu.be/spc2_NHJuKQ
-
 
 
 ## Commit History
