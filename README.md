@@ -79,9 +79,7 @@ AssemblyInfo.cs contains assembly metadata.
 ## YouTube 
 Click here to watch the demo video: https://youtu.be/spc2_NHJuKQ
 
-
 ## Commit History
-
 Initial commit: Set up WPF project structure and files.
 Added AudioPlayer class with greeting sound functionality.
 Added ChatEngine with response dictionary and topic detection.
