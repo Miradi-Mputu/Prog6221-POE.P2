@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+		<AssemblyName>CyberBotGUI</AssemblyName>
+		<RootNamespace>CyberBotGUI</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Image\logo.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<!-- Copy the greeting WAV file to output so AudioPlayer can find it -->
+		<Content Include="AudioPlayer\greeting.wav">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Resource Include="Image\logo.jpg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	</ItemGroup>
+
+</Project>
