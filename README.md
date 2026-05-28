@@ -85,7 +85,7 @@ AssemblyInfo.cs contains assembly metadata.
 
 ## YouTube 
 
-Click here to watch the demo video: 
+Click here to watch the demo video: https://youtu.be/spc2_NHJuKQ
 
 
 
