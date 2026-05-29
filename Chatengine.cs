@@ -50,8 +50,20 @@ namespace CyberBotGUI
             },
             ["phishing"] = new List<string> {
                 "Always check the sender's email address carefully.",
-                "Forward suspicious emails to report@phishing.gov.uk",
                 "Hover over links before clicking to see the real address."
+            },
+            ["firewall"] = new List<string> {
+                "For more effect work get the firewall installed by a professional.",
+                "Configure your firewall to block unnecessary incoming connections.",
+                "Regularly update your firewall rules to address new threats."
+            },
+            ["social engineering"] = new List<string> {
+                "Avoid opening unknown emails or clicking suspicious links.",
+                " Trust no one who asks for personal information."     
+            },
+            ["encryption "] = new List<string> {
+                "Always have a random key lock in order to assure the saftey of the data ",
+                "Do not use the same password for multiple sites."
             },
             ["malware"] = new List<string> {
                 "Keep your operating system updated for security patches.",
@@ -75,10 +87,10 @@ namespace CyberBotGUI
         public string GetTopic(string input)
         {
             // Check for follow-up questions first
-            if (input.Contains("tell me more") || input.Contains("explain more"))
+            if (input.Contains("tell me more") || input.Contains("explain more") )
                 return "tellmemore";
 
-            if (input.Contains("another tip"))
+            if (input.Contains("another tip")|| input.Contains("give me a tip"))
                 return "anothertip";
 
             // Check for main cybersecurity topics
@@ -221,7 +233,7 @@ namespace CyberBotGUI
         // Returns the list of all available topics
         public string GetTopicList()
         {
-            return "=== CYBER BOT MENU ===\n\n" +
+            return "=== CYBER BOT MENU ===\n" +
                    "1. passwords\n" +
                    "2. phishing\n" +
                    "3. safe browsing\n" +
